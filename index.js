@@ -4,7 +4,7 @@ const crypto = require('crypto');
 module.exports = function (input) {
 	const hash = crypto.createHash('md5');
 
-	const update = buf => {
+	const update = function(buf) {
 		const inputEncoding = typeof buf === 'string' ? 'utf8' : undefined;
 		hash.update(buf, inputEncoding);
 	};

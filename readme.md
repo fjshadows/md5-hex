@@ -12,7 +12,7 @@ Checkout [`hasha`](https://github.com/sindresorhus/hasha) if you need something 
 ## Install
 
 ```
-$ npm install --save md5-hex
+$ npm install --save md5-hex-work
 ```
 
 
